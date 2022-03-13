@@ -242,7 +242,7 @@ function App() {
         <section className="section4 section-lg pt-lg-5 pb-lg-5 mt--200">
           <Container bg="light">
             <Row>
-              <Col xs={12} md={6} slide-left>
+              <Col xs={12} md={6}>
                 <div className="second-icon fade-in">
                   <FaWrench />
                 </div>
@@ -268,7 +268,7 @@ function App() {
                   </p>
                 </div>
               </Col>
-              <Col xs={12} md={6} slide-right>
+              <Col xs={12} md={6}>
                 <div className="img-div">
                   <img
                     src={require("./uploads/mech-img.jpg")}
@@ -300,33 +300,33 @@ function App() {
                 </div>
               </Col>
             </Row>
-            <div class="row-grid mt-5 pb-lg-5 row">
-              <div class="col-lg-4">
-                <div class=" shadow rounded-circle appl-ico">
+            <div className="row-grid mt-5 pb-lg-5 row">
+              <div className="col-lg-4">
+                <div className=" shadow rounded-circle appl-ico">
                   <FaCubes />
                 </div>
-                <h5 class="text-white mt-3">Building tools</h5>
-                <p class="text-white mt-3">
+                <h5 className="text-white mt-3">Building tools</h5>
+                <p className="text-white mt-3">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
               </div>
-              <div class="col-lg-4">
-                <div class=" shadow rounded-circle appl-ico">
+              <div className="col-lg-4">
+                <div className=" shadow rounded-circle appl-ico">
                   <FaLaptop />
                 </div>
-                <h5 class="text-white mt-3">Grow your market</h5>
-                <p class="text-white mt-3">
+                <h5 className="text-white mt-3">Grow your market</h5>
+                <p className="text-white mt-3">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
               </div>
-              <div class="col-lg-4">
-                <div class="shadow rounded-circle appl-ico">
+              <div className="col-lg-4">
+                <div className="shadow rounded-circle appl-ico">
                   <FaHammer />
                 </div>
-                <h5 class="text-white mt-3">Launch time</h5>
-                <p class="text-white mt-3">
+                <h5 className="text-white mt-3">Launch time</h5>
+                <p className="text-white mt-3">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
@@ -376,13 +376,13 @@ function App() {
 
         <footer className="page-footer font-small blue pt-4 text-white">
           <Container>
-            <div class="ocean">
-              <div class="wave"></div>
-              <div class="wave"></div>
-              <div class="wave"></div>
+            <div className="ocean">
+              <div className="wave"></div>
+              <div className="wave"></div>
+              <div className="wave"></div>
             </div>
-            <div class="row-grid mt-5 pb-lg-5 row">
-              <div class="col-lg-4">
+            <div className="row-grid mt-5 pb-lg-5 row">
+              <div className="col-lg-4">
                 <h4 className="text-upper">Trimid Unner</h4>
                 <p>
                   Phasellus ut felis sit amet turpis tincidunt posuere. st
@@ -390,7 +390,7 @@ function App() {
                   vitae egestas justo.{" "}
                 </p>
               </div>
-              <div class="col-lg-4">
+              <div className="col-lg-4">
                 <h4>Morbi luctus</h4>
                 <ul>
                   <li>
@@ -404,7 +404,7 @@ function App() {
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-4">
+              <div className="col-lg-4">
                 <h4>Suspendisse auctor</h4>
                 <ul>
                   <li>
