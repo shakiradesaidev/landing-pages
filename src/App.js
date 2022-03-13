@@ -1,15 +1,26 @@
 import "./App.css";
+import { Navbar, Container, Nav, Button, Row, Col } from "react-bootstrap";
 import {
-  Navbar,
-  Container,
-  Nav,
-  Button,
-  Row,
-  Col,
-} from "react-bootstrap";
-import { Badge, Card, CardBody,Form, FormGroup, Label, Input } from "reactstrap";
+  Badge,
+  Card,
+  CardBody,
+  Form,
+  FormGroup,
+  Label,
+  Input,
+} from "reactstrap";
 
-import { FaCog, FaRegHandPointRight, FaWrench,FaLaptop,FaHammer,FaCubes,FaFacebook,FaTwitterSquare,FaLinkedin } from "react-icons/fa";
+import {
+  FaCog,
+  FaRegHandPointRight,
+  FaWrench,
+  FaLaptop,
+  FaHammer,
+  FaCubes,
+  FaFacebook,
+  FaTwitterSquare,
+  FaLinkedin,
+} from "react-icons/fa";
 
 function App() {
   return (
@@ -25,21 +36,10 @@ function App() {
                   <Nav.Link href="#features">About Us</Nav.Link>
                   <Nav.Link href="#pricing">Pricing</Nav.Link>
                   <Nav.Link href="#services">Services</Nav.Link>
-                  {/* <NavDropdown title="Services" id="collasible-nav-dropdown">
-      <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-      <NavDropdown.Item href="#action/3.2">Monitor</NavDropdown.Item>
-      <NavDropdown.Item href="#action/3.3">
-        Indicator
-      </NavDropdown.Item>
-      <NavDropdown.Divider />
-      <NavDropdown.Item href="#action/3.4">IOT</NavDropdown.Item>
-    </NavDropdown> */}
                 </Nav>
                 <Nav>
                   <Nav.Link href="#deets">Meet Customers</Nav.Link>
-                  {/* <Nav.Link eventKey={2} href="#memes">
 
-</Nav.Link> */}
                   <Button href="#" className="demo-btn">
                     Schedule Demo
                   </Button>
@@ -303,7 +303,7 @@ function App() {
             <div class="row-grid mt-5 pb-lg-5 row">
               <div class="col-lg-4">
                 <div class=" shadow rounded-circle appl-ico">
-                <FaCubes/>
+                  <FaCubes />
                 </div>
                 <h5 class="text-white mt-3">Building tools</h5>
                 <p class="text-white mt-3">
@@ -313,7 +313,7 @@ function App() {
               </div>
               <div class="col-lg-4">
                 <div class=" shadow rounded-circle appl-ico">
-                 <FaLaptop/>
+                  <FaLaptop />
                 </div>
                 <h5 class="text-white mt-3">Grow your market</h5>
                 <p class="text-white mt-3">
@@ -323,7 +323,7 @@ function App() {
               </div>
               <div class="col-lg-4">
                 <div class="shadow rounded-circle appl-ico">
-                 <FaHammer/>
+                  <FaHammer />
                 </div>
                 <h5 class="text-white mt-3">Launch time</h5>
                 <p class="text-white mt-3">
@@ -339,80 +339,109 @@ function App() {
             <Row>
               <Col xs={12} md={12}>
                 <Form className="formcls shadow">
-                <FormGroup>
-          <Label for="exampleText">Name</Label>
-          <Input type="text" name="name" id="exampleEmail" placeholder="Name" />
-        </FormGroup>
-        <FormGroup>
-          <Label for="exampleEmail">Email</Label>
-          <Input type="email" name="email" id="exampleEmail" placeholder="Email" />
-        </FormGroup>
-        <FormGroup>
-          <Label for="exampleText">Message</Label>
-          <Input type="textarea" name="text" id="exampleText" placeholder="Add your message here" />
-        </FormGroup>
-        
-        <Button>Submit</Button>
-      </Form>
+                  <FormGroup>
+                    <Label for="exampleText">Name</Label>
+                    <Input
+                      type="text"
+                      name="name"
+                      id="exampleEmail"
+                      placeholder="Name"
+                    />
+                  </FormGroup>
+                  <FormGroup>
+                    <Label for="exampleEmail">Email</Label>
+                    <Input
+                      type="email"
+                      name="email"
+                      id="exampleEmail"
+                      placeholder="Email"
+                    />
+                  </FormGroup>
+                  <FormGroup>
+                    <Label for="exampleText">Message</Label>
+                    <Input
+                      type="textarea"
+                      name="text"
+                      id="exampleText"
+                      placeholder="Add your message here"
+                    />
+                  </FormGroup>
+
+                  <Button>Submit</Button>
+                </Form>
               </Col>
             </Row>
-            
           </Container>
         </section>
-        
 
         <footer className="page-footer font-small blue pt-4 text-white">
           <Container>
-        <div class="ocean">
-          <div class="wave"></div>
-          <div class="wave"></div>
-          <div class="wave"></div>
-        </div>
-        <div class="row-grid mt-5 pb-lg-5 row">
+            <div class="ocean">
+              <div class="wave"></div>
+              <div class="wave"></div>
+              <div class="wave"></div>
+            </div>
+            <div class="row-grid mt-5 pb-lg-5 row">
               <div class="col-lg-4">
-              <h4 className="text-upper">Trimid Unner</h4>
-            <p>Phasellus ut felis sit amet turpis tincidunt posuere. st tortor tempus lectus, ut vehicula ante enim ornare erat. Sed vitae egestas justo. </p>
+                <h4 className="text-upper">Trimid Unner</h4>
+                <p>
+                  Phasellus ut felis sit amet turpis tincidunt posuere. st
+                  tortor tempus lectus, ut vehicula ante enim ornare erat. Sed
+                  vitae egestas justo.{" "}
+                </p>
               </div>
               <div class="col-lg-4">
-              <h4>Morbi luctus</h4>
-            <ul>
-              <li><a href="#ocl" >Orci nec dictum</a></li>
-              <li><a href="#lac">Nam lacinia</a></li>
-              <li><a href="#in">In eleifend</a></li>
-              </ul>
+                <h4>Morbi luctus</h4>
+                <ul>
+                  <li>
+                    <a href="#ocl">Orci nec dictum</a>
+                  </li>
+                  <li>
+                    <a href="#lac">Nam lacinia</a>
+                  </li>
+                  <li>
+                    <a href="#in">In eleifend</a>
+                  </li>
+                </ul>
               </div>
               <div class="col-lg-4">
-              <h4>Suspendisse auctor</h4>
-            <ul>
-              <li><a href="#donec">Donec sit amet</a></li>
-              <li><a href="#mar">Mauris quis</a></li>
-              <li><a href="#sed">Sed ut elementum</a></li>
-              </ul>
+                <h4>Suspendisse auctor</h4>
+                <ul>
+                  <li>
+                    <a href="#donec">Donec sit amet</a>
+                  </li>
+                  <li>
+                    <a href="#mar">Mauris quis</a>
+                  </li>
+                  <li>
+                    <a href="#sed">Sed ut elementum</a>
+                  </li>
+                </ul>
               </div>
             </div>
-       
-        </Container>
+          </Container>
 
-    <div className="footer-copyright text-center py-3">
-        <ul className="social-list">
-          <li>
-            <a href="#fb"> <FaFacebook /></a>
-          </li>
-          <li>
-            <a href="#li">
-              <FaLinkedin/>
-            </a>
-          </li>
-          <li>
-            <a href="#tw">
-              <FaTwitterSquare/>
-            </a>
-          </li>
-        </ul>
-    </div>
-
-</footer>
-
+          <div className="footer-copyright text-center py-3">
+            <ul className="social-list">
+              <li>
+                <a href="#fb">
+                  {" "}
+                  <FaFacebook />
+                </a>
+              </li>
+              <li>
+                <a href="#li">
+                  <FaLinkedin />
+                </a>
+              </li>
+              <li>
+                <a href="#tw">
+                  <FaTwitterSquare />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
       </div>
     </>
   );
